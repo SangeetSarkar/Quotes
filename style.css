@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(203, 161, 109);
+}
+.container{
+    margin:auto;
+    margin-top:15%;
+    display: flex;
+    flex-direction: column;
+    width: 70vh;
+    height: 30vh;
+    background-color: #FFF2CC;
+}
+.generateButtonContainer{
+    height:5vh;
+    /* background-color: yellow; */
+    margin:2vh;
+}
+.generate{
+    margin:0 auto;
+    height:100%;
+    width:20vh;
+    display: block;
+    background-color: rgb(73, 231, 248);
+    font-size: large;
+    border:left,bottom;
+    
+    border-radius: .6vh;
+}
+.Quote{
+    /* background-color: rgb(217, 255, 0); */
+    margin-left:3vh;
+    margin-right: 3vh;
+}
+.Author{
+    /* background-color: violet; */
+    color:blue;
+    margin-top:2vh;
+    margin-left: 3vh;
+    margin-right: 3vh;
+    text-align: end;
+}
